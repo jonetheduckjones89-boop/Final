@@ -1,0 +1,69 @@
+[
+    {
+        "jobId": "job_sample_001",
+        "filename": "clinic-visit-2025-11-01.pdf",
+        "uploadedAt": "2025-12-05T08:21:00Z",
+        "summary": "58-year-old male presenting with chest pain...",
+        "topActions": [
+            {
+                "id": "a1",
+                "title": "Order troponin tests",
+                "priority": "Critical",
+                "details": "Obtain troponin I and repeat in 3 hrs.",
+                "effort": "Low"
+            },
+            {
+                "id": "a2",
+                "title": "Schedule follow-up with cardiology",
+                "priority": "High",
+                "details": "Refer within 72 hours.",
+                "effort": "Medium"
+            }
+        ],
+        "patientDetails": {
+            "name": "John Doe",
+            "dob": "1967-03-15",
+            "encounterDates": [
+                "2025-11-01"
+            ],
+            "medications": [
+                "Aspirin 81mg daily",
+                "Lisinopril 10mg"
+            ],
+            "diagnoses": [
+                "Unspecified chest pain"
+            ],
+            "labs": [
+                {
+                    "name": "Troponin I",
+                    "value": "0.04",
+                    "unit": "ng/mL",
+                    "normalRange": "0.00-0.04"
+                }
+            ],
+            "attending": "Dr. Sarah Lee"
+        },
+        "riskFlags": [
+            {
+                "id": "r1",
+                "severity": "Critical",
+                "message": "Missing allergy list"
+            },
+            {
+                "id": "r2",
+                "severity": "High",
+                "message": "Conflicting medication doses"
+            }
+        ],
+        "suggestions": [
+            "Add allergy history",
+            "Clarify medication dosage times"
+        ],
+        "stats": {
+            "wordCount": 1450,
+            "sections": 7,
+            "readingScore": 38.5,
+            "confidence": 0.87
+        }
+    }
+]
